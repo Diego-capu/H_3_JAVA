@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Lista de Notas - Papi</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        input { padding: 8px; width: 300px; }
+        button { padding: 8px 12px; margin-left: 5px; }
+        ul { list-style: none; padding: 0; }
+        li { 
+            padding: 10px; 
+            margin: 5px 0; 
+            background: #f0f0f0; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de Notas</h1>
+    <p>Escribe una nota y presiona Agregar:</p>
+    
+    <input type="text" id="inputNota" placeholder="Escribe tu nota aquí...">
+    <button id="btnAgregar">Agregar</button>
+    
+    <ul id="listaNotas"></ul>
+
+    <script src="notas.js"></script>
+</body>
+</html>
